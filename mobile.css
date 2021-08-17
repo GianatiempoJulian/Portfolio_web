@@ -70,6 +70,6 @@ main {
 
 .data {
     position: relative;
-    top: 45px;
+    top: -10px;
     right: 55px;
 }

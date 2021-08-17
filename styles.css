@@ -8,20 +8,20 @@
 }
 
 h1 {
-    color: #6883bc;
+    color: #ececec;
 }
 
 h2 {
-    color: #79a7d3;
+    color: #565DED;
 }
 
 h3 {
-    color: #6883bc;
+    color: #565DED;
 }
 
 main {
     min-height: 875px;
-    background: linear-gradient(to right top, #79a7d3, #6883bc);
+    background: linear-gradient(to right top, #d6e7f6, #98a1b6);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,7 +31,7 @@ main {
     background: white;
     min-height: 700px;
     width: 1050px;
-    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(125, 152, 175, 0.3));
+    background: linear-gradient(to right bottom, rgba(86, 93, 237, 0.7), rgba(52, 57, 156, 0.738));
     border-radius: 30px;
     backdrop-filter: blur(2rem);
     display: flex;
@@ -68,7 +68,7 @@ main {
     align-items: center;
     justify-content: space-evenly;
     text-align: center;
-    background: linear-gradient(to right bottom, rgba(255, 204, 231, 0.7), rgba(158, 114, 137, 0.3));
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
     border-radius: 30px;
 }
 
@@ -95,7 +95,7 @@ main {
 }
 
 .link a {
-    color: #6883bc;
+    color: #565DED;
     padding: 0rem 2rem;
     text-decoration: none;
 }
@@ -139,7 +139,7 @@ main {
     display: flex;
     background: linear-gradient(to left top, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.5));
     border-radius: 16px;
-    margin: 32px 0;
+    margin: 32px 0px;
     padding: 32px;
     box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
     justify-content: space-between;
