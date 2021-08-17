@@ -1,0 +1,156 @@
+/*BODY*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    color: #6883bc;
+}
+
+h2 {
+    color: #79a7d3;
+}
+
+h3 {
+    color: #6883bc;
+}
+
+main {
+    min-height: 875px;
+    background: linear-gradient(to right top, #79a7d3, #6883bc);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.glass {
+    background: white;
+    min-height: 700px;
+    width: 1050px;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(125, 152, 175, 0.3));
+    border-radius: 30px;
+    backdrop-filter: blur(2rem);
+    display: flex;
+    z-index: 2;
+}
+
+.circle1,
+.circle2 {
+    background: white;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.8), rgba(125, 152, 175, 0.3));
+    height: 160px;
+    width: 160px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.circle1 {
+    top: 5%;
+    right: 15%;
+}
+
+.circle2 {
+    bottom: 5%;
+    left: 15%;
+}
+
+
+/*DASHBOARD*/
+
+.dashboard {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    background: linear-gradient(to right bottom, rgba(255, 204, 231, 0.7), rgba(158, 114, 137, 0.3));
+    border-radius: 30px;
+}
+
+.user h3 {
+    margin: 16px;
+}
+
+#avatar {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.social_logo {
+    width: 30px;
+    height: 30px;
+}
+
+.link {
+    display: flex;
+    margin: 32px 0;
+    padding: 16px 80px;
+    align-items: center;
+}
+
+.link a {
+    color: #6883bc;
+    padding: 0rem 2rem;
+    text-decoration: none;
+}
+
+
+/*PROJECTS*/
+
+.status {
+    margin-bottom: 48px;
+}
+
+.projects,
+.info {
+    flex: 2;
+    margin: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.card {
+    display: flex;
+    background: linear-gradient(to left top, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.5));
+    border-radius: 1rem;
+    margin: 2rem 0rem;
+    padding: 2rem;
+    box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
+    justify-content: space-between;
+}
+
+.card-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.data p {
+    display: flex;
+    background: linear-gradient(to left top, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.5));
+    border-radius: 1rem;
+    margin: 2rem 0rem;
+    padding: 2rem;
+    box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
+    justify-content: space-between;
+}
+
+.triangulo {
+    background: linear-gradient(to left top, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.2));
+    width: 0;
+    height: 0;
+    border-bottom: 30px solid rgb(255, 255, 255);
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent;
+    position: absolute;
+    top: 342px;
+    left: 730px;
+    z-index: 3;
+}
