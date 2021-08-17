@@ -119,9 +119,9 @@ main {
 .card {
     display: flex;
     background: linear-gradient(to left top, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.5));
-    border-radius: 1rem;
-    margin: 2rem 0rem;
-    padding: 2rem;
+    border-radius: 16px;
+    margin: 32px 0;
+    padding: 32px;
     box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
     justify-content: space-between;
 }
@@ -132,12 +132,15 @@ main {
     justify-content: space-between;
 }
 
+
+/*ABOUT ME*/
+
 .data p {
     display: flex;
     background: linear-gradient(to left top, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.5));
-    border-radius: 1rem;
-    margin: 2rem 0rem;
-    padding: 2rem;
+    border-radius: 16px;
+    margin: 32px 0;
+    padding: 32px;
     box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
     justify-content: space-between;
 }

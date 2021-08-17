@@ -1,0 +1,75 @@
+main {
+    min-width: 400px;
+}
+
+.glass {
+    min-height: 350px;
+    width: 390px;
+    display: flex;
+    position: relative;
+    left: 1px;
+}
+
+
+/*DASHBOARD*/
+
+.dashboard {
+    width: 140px;
+}
+
+.user h3 {
+    display: none;
+}
+
+#avatar {
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    top: 80px;
+    left: 29px;
+}
+
+.social_logo {
+    width: 50px;
+    height: 50px;
+}
+
+.link a {
+    position: absolute;
+    left: 13px;
+    opacity: 0;
+}
+
+
+/*PROJECTS*/
+
+.status {
+    margin-bottom: 39px;
+    position: relative;
+    top: 18px;
+    right: 50px;
+}
+
+.cards {
+    position: relative;
+    top: 3px;
+    right: 55px;
+}
+
+.card img {
+    opacity: 0;
+}
+
+
+/*ABOUT ME*/
+
+.data p {
+    position: relative;
+    font-size: 10px;
+}
+
+.data {
+    position: relative;
+    top: 45px;
+    right: 55px;
+}
