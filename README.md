@@ -1,2 +1,4 @@
-Página web dedicada a mi portafolio personal. 
-Usada tanto como para usarse, como para practicar mis habilidades en desarollo web.
+Página web con diseño de portafolio.
+Prácticando HTML y CSS.
+
+--NO ES MI PORTAFOLIO PERSONAL, ES UNA PÁGINA SIN UN OBJETIVO MÁS QUE PRACTICAR--
