@@ -36,6 +36,7 @@ main {
     backdrop-filter: blur(2rem);
     display: flex;
     z-index: 2;
+    position: relative;
 }
 
 .circle1,
@@ -80,6 +81,25 @@ main {
     border-radius: 50%;
     width: 100px;
     height: 100px;
+    transition: ease-in 0.3s;
+}
+
+.info-avatar {
+    position: absolute;
+    top: 50px;
+    left: 65px;
+    opacity: 0;
+    background-color: white;
+    border-radius: 30px;
+    display: none;
+}
+
+#avatar:hover {
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+    border-color: #565DED;
+    transition: ease 0.5s;
 }
 
 .social_logo {
@@ -116,7 +136,8 @@ main {
     justify-content: space-evenly;
 }
 
-.card {
+.card,
+.data {
     display: flex;
     background: linear-gradient(to left top, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.5));
     border-radius: 16px;
@@ -124,36 +145,18 @@ main {
     padding: 32px;
     box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
     justify-content: space-between;
+    transition: ease-in 0.3s;
 }
 
-.card-info {
+.card:hover,
+.data:hover {
+    transform: scale(1.05, 1.05);
+    transition: ease 0.5s;
+}
+
+.card-info,
+.data-card {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}
-
-
-/*ABOUT ME*/
-
-.data p {
-    display: flex;
-    background: linear-gradient(to left top, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.5));
-    border-radius: 16px;
-    margin: 32px 0px;
-    padding: 32px;
-    box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
-    justify-content: space-between;
-}
-
-.triangulo {
-    background: linear-gradient(to left top, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.2));
-    width: 0;
-    height: 0;
-    border-bottom: 30px solid rgb(255, 255, 255);
-    border-right: 20px solid transparent;
-    border-left: 20px solid transparent;
-    position: absolute;
-    top: 342px;
-    left: 730px;
-    z-index: 3;
 }
