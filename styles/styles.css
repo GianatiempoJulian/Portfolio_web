@@ -161,3 +161,16 @@ main {
     flex-direction: column;
     justify-content: space-between;
 }
+
+.languages {
+    display: flex;
+    position: relative;
+    top: 400px;
+    left: 800px;
+    width: 1px;
+    height: 1px;
+}
+
+.language {
+    padding: 5px;
+}

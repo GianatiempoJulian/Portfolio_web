@@ -20,3 +20,17 @@ function hideInfo() {
     }
 
 }
+
+let en_btn = document.getElementById('en_lan');
+let es_btn = document.getElementById('es_lan');
+
+en_btn.addEventListener("click", changeToEn);
+es_btn.addEventListener("click", changeToEs);
+
+function changeToEn() {
+    location.href = "../en/en_index.html";
+}
+
+function changeToEs() {
+    location.href = "../es/es_index.html";
+}
