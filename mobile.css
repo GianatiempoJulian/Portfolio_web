@@ -60,7 +60,7 @@ main {
 /*PROJECTS*/
 
 .status {
-    margin-bottom: 39px;
+    margin-top: 38px;
     position: relative;
     top: 18px;
     right: 50px;
@@ -93,8 +93,9 @@ main {
 
 .data-card p {
     position: absolute;
-    top: 25px;
+    top: 10px;
     left: 2px;
-    font-size: small;
+    font-size: 60%;
     text-align: center;
+    margin: auto;
 }
